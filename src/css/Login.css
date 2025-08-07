@@ -1,0 +1,287 @@
+.lpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.lpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.lpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 44.5%;
+  margin-bottom: 10px;
+}
+
+.lpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.lpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.lpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.lpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+
+
+
+
+
+
+/* Wrapper */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+    background: linear-gradient( #f9f9f9, #eaeaea);
+  min-height: 100vh;
+}
+
+/* Container */
+.login-container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Title */
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.social-icons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.facebook { background-color: #3b5998; }
+.twitter { background-color: #55acee; }
+.instagram { background-color: #e4405f; }
+.google { background-color: #dd4b39; }
+
+/* Form */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Remember me */
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember input {
+  margin-right: 8px;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #111;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Links */
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-links a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+  }
+
+  .social-icons button {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+.lpage-one{
+  height: 50vh;
+}
+
+.login-wrapper{
+  height: max-content;
+}
+
+.login-container{
+  font-size: 2rem;
+}
+
+}
+
+
+@media screen and (max-width: 556px) {
+  .lpage-one {
+    height: 45vh;
+    background-position: center;
+  }
+
+  .lpage-one img {
+    width: 280px;
+    height: auto;
+    right: 2%;
+    top: 5%;
+  }
+
+  .lpage-one .title {
+    font-size: 2rem;
+    left: 10%;
+    top: 35%;
+    text-align: left;
+  }
+
+  .lpage-one .breadcrumb {
+    font-size: 0.9rem;
+    left: 10%;
+    top: 55%;
+  }
+
+  .login-wrapper {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .login-container {
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .social-icons button {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .login-btn {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .login-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+  }
+}

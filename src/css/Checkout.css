@@ -1,0 +1,379 @@
+.chpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.chpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.chpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 41%;
+  margin-bottom: 10px;
+}
+
+.chpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.chpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.chpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.chpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.chpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+.fds{
+  width: 100%;
+  height: fit-content;
+}
+
+.checkout-steps-wrapper {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(  #eaeaea , #f9f9f9);
+  gap: 30px;
+  width: 100%;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+}
+
+.checkout-step {
+  background-color: #fbf9fe;
+  border: 1px solid #eee;
+  padding: 20px 30px;
+  width: 25%;
+  height: fit-content;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.icon-container {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #d88da1; /* pink tone */
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.step-label {
+  font-size: 14px;
+  color: #777;
+}
+
+
+
+.checkout-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 40px;
+}
+
+.checkout-form {
+  flex: 1;
+  min-width: 350px;
+}
+
+.checkout-form h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #f5dada;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.checkout-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+
+.payment-right {
+  flex: 1;
+  min-width: 320px;
+  background-color: #fbf9fe;
+  padding: 20px;
+  height: max-content;
+  border: 1px solid #eee;
+}
+
+
+
+
+.payment-right h2 {
+  border-bottom: 2px solid #111;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.order-card img {
+  width: 60px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-name span {
+  font-weight: normal;
+  color: #888;
+  margin-left: 5px;
+}
+
+.item-price {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.item-sku {
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.order-summary {
+  background-color: #f7f5fc;
+  padding: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-row small {
+  color: #888;
+  font-size: 12px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+
+.nav-buttons1 {
+  display: flex;
+  gap: 20px;
+  padding-left: 13%;
+   background: linear-gradient(  #f9f9f9  , #eaeaea );
+}
+
+.btn1 {
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.next-btn1 {
+  background-color: #222; /* dark gray/black */
+  color: #fff;
+}
+
+.next-btn1:hover {
+  opacity: 0.85;
+}
+
+.link-button1 {
+  text-decoration: none;
+  
+}
+.link-button1 button {
+  list-style: none;
+}
+
+
+@media screen and (max-width: 556px) {
+  .chpage-one {
+    height: 45vh;
+    background-position: center;
+  }
+
+  .chpage-one img {
+    width: 200px;
+    height: auto;
+    right: 5%;
+    top: 10%;
+  }
+
+  .chpage-one .title {
+    font-size: 2rem;
+    top: 35%;
+    left: 5%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .chpage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 5%;
+  }
+
+  .fds {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .checkout-steps-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    height: max-content;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+
+  .checkout-step {
+    min-width: 300px;
+    padding: 20px;
+  }
+
+  .checkout-wrapper {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .checkout-form,
+  .payment-right {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .checkout-form h2,
+  .payment-right h2 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .order-card img {
+    width: 50px;
+    height: 80px;
+  }
+
+  .nav-buttons1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .btn1 {
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    padding: 14px;
+  }
+}
+

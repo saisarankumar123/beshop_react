@@ -1,0 +1,765 @@
+
+.page-one {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url("https://wallpapers.com/images/hd/woman-face-heavy-make-up-k8xegbon78dqqd6a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.main-page {
+  max-width: 50%;
+  margin-left: 10%;
+  z-index: 2;
+}
+
+.main-page h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #fd678d;
+  margin-bottom: 20px;
+}
+
+.main-page h1 {
+  font-size: 6rem;
+  font-weight: 200;
+  color: snow;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.main-page p {
+  font-size: 2rem;
+  color: #aea9a9;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.main-page button {
+  padding: 14px 28px;
+  background-color:maroon;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.main-page button:hover {
+  background-color: #333;
+}
+
+.page-one::after {
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+
+
+
+
+.page-two {
+  width: 100%;
+  height: 160vh;
+  /* background-color: #160C1A; */
+  padding: 4rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: none;
+}
+
+.heading h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #fd678d;
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  font-size: 2.7rem;
+  font-weight: 200;
+  color: black;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.heading p {
+  font-size: 1.3rem;
+  color: #aea9a9;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.list-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.list-flex li {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #999;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-flex li:hover {
+  background-color: #fd678d;
+  color: white;
+}
+
+
+
+
+
+.full-box {
+  width: 100%;
+  height: 115vh;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.left, .right {
+  width: 3%;
+  height: 70px;
+  cursor: pointer;
+  border: none;
+  color: black;
+  background: transparent;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+  font-size: 2rem;
+}
+
+.left:hover, .right:hover {
+  background-color: #807d7e;
+}
+
+.box-cart {
+  width: 90%;
+  height: 97vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.product-cardq {
+  width: 24%; 
+  height: 98%; 
+  background-color: rgb(244, 185, 249);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.product-cardq:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers without distortion */
+  display: block;
+}
+
+/* Sale badge */
+.sale-badge {
+  position: absolute;
+  top: 8px;
+  right: 5%;
+  background-color: #fd678d;
+  color: snow;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  z-index: 2;
+  font-weight: bold;
+}
+
+/* HOVER ICONS FIXED */
+.hover-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+}
+
+.image-container:hover .hover-icons {
+  opacity: 1;
+}
+
+.two-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+}
+
+.heart {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: gray;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.heart:hover {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+}
+
+.search-heart {
+  font-size: 1.5rem;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-top: 70%;
+  margin-left: 21%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: gray;
+}
+
+
+
+
+
+.heart:hover {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+} 
+
+
+.product-link {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+}
+
+.product-card h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: gray;
+}
+
+.product-card strike {
+  color: #999;
+}
+
+
+.hover-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+}
+
+/* .image-wrapper:hover .hover-icons {
+  opacity: 1;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-three{
+  width: 70%;
+  height: 20vh;
+  position: relative;
+  margin-bottom: 25px;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.page-four{
+  width: 100%;
+  height: 120vh;
+  position: relative;
+  background-color: aquamarine;
+  background-image: url("https://s1.1zoom.me/big7/348/Beautiful_Model_Face_Makeup_Hands_Manicure_Black_584098_2560x1440.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.page-four  .discount{
+  width: 30%;
+  height: 55%;
+  position: absolute;
+  top: 24%;
+  right: 10%;
+}
+
+.discount h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #ff5580;
+  margin-bottom: 20px;
+}
+
+.discount h4{
+  font-size: 6.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color:snow;
+  margin-bottom: 20px;
+}
+
+span{
+  color: #fd678d;
+}
+
+.discount p{
+  font-size: 1.3rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.discount button {
+  padding: 14px 28px;
+  background-color:maroon;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.discount button:hover {
+  background-color: #fd678d;
+}
+
+.drop{
+  width: 10%;
+  height: 14%;
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  
+}
+.drop img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 996px) {
+
+  .page-one {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    padding: 2rem 1rem;
+  }
+
+  .main-page {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-page h3 {
+    font-size: 3rem;
+  }
+
+  .main-page h1 {
+    font-size: 4.2rem;
+  }
+
+  .main-page p {
+    font-size: 1.7rem;
+  }
+
+  .main-page button {
+    font-size: 1.3rem;
+    padding: 12px 24px;
+  }
+
+  .page-one::after {
+    display: none;
+  }
+
+  .page-two {
+    padding: 2rem 1rem;
+    height: max-content;
+     width: 100%;
+  }
+
+  .heading h3 {
+    font-size: 2rem;
+  }
+
+  .heading h1 {
+    font-size: 2.4rem;
+  }
+
+  .heading p {
+    font-size: 1.4rem;
+  }
+
+  .list-flex {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .list-flex li {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-left: -15px;
+    text-align: center;
+  }
+
+  .full-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left,
+  .right {
+    font-size: 1.5rem;
+    width: 5%;
+  }
+
+  .box-cart {
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .product-cardq {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .image-container {
+    height: 300px;
+  }
+
+  .hover-icons {
+    width: 70%;
+    height: 60%;
+  }
+
+  .search-heart {
+    width: 60px;
+    height: 60px;
+  }
+   
+  .product-cardq h4 {
+    font-size: 1.4rem;
+  }
+
+  .product-cardq p {
+    font-size: 1.5rem;
+  }
+
+  .page-three {
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: row;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .page-four {
+    height: max-content;
+    padding: 2rem 1rem;
+    background-position: center top;
+  }
+
+  .page-four .discount {
+    width: 90%;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .discount h3 {
+    font-size: 3rem;
+  }
+
+  .discount h4 {
+    font-size: 4.2rem;
+  }
+
+  .discount p {
+    font-size: 1.3rem;
+  }
+
+  .discount button {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+  }
+
+  .drop {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 556px) {
+
+  .page-one {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .main-page {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-page h3 {
+    font-size: 2rem;
+  }
+
+  .main-page h1 {
+    font-size: 2.8rem;
+  }
+
+  .main-page p {
+    font-size: 1.3rem;
+  }
+
+  .main-page button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .page-one::after {
+    display: none;
+  }
+
+  .page-two {
+    padding: 1.5rem 1rem;
+    height: auto;
+  }
+
+  .heading h3 {
+    font-size: 1.6rem;
+  }
+
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .heading p {
+    font-size: 1.1rem;
+  }
+
+  .list-flex {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .list-flex li {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .full-box {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .left,
+  .right {
+    font-size: 1.5rem;
+    width: 10%;
+  }
+
+  .box-cart {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .product-cardq {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .image-container {
+    height: 220px;
+  }
+
+  .hover-icons {
+    width: 80%;
+    height: 60%;
+  }
+
+  .search-heart {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .product-cardq h4 {
+    font-size: 1.2rem;
+  }
+
+  .product-cardq p {
+    font-size: 1.1rem;
+  }
+
+  .page-three {
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .page-four {
+    height: auto;
+    padding: 2rem 1rem;
+    background-position: center top;
+  }
+
+  .page-four .discount {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .discount h3 {
+    font-size: 2rem;
+  }
+
+  .discount h4 {
+    font-size: 3.5rem;
+  }
+
+  .discount p {
+    font-size: 1rem;
+  }
+
+  .discount button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .drop {
+    display: none;
+  }
+
+}

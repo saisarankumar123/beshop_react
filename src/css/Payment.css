@@ -1,0 +1,455 @@
+.chppage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.chppage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.chppage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 41%;
+  margin-bottom: 10px;
+}
+
+.chppage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 43%;
+  color: snow;
+}
+
+.chppage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.chppage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.chppage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.chppage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+
+
+.fds{
+  width: 100%;
+  height: fit-content;
+   background: linear-gradient(  #eaeaea , #f9f9f9);
+}
+
+.checkout-steps-wrapper {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(  #eaeaea , #f9f9f9);
+  gap: 30px;
+  width: 100%;
+  padding: 30px 20px;
+  flex-wrap: wrap;
+}
+
+.checkout-step {
+  background-color: #fbf9fe;
+  border: 1px solid #eee;
+  padding: 20px 30px;
+  width: 25%;
+  height: fit-content;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.icon-container {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #d88da1; /* pink tone */
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+.step-label {
+  font-size: 14px;
+  color: #777;
+}
+
+
+
+.payment-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 90%;
+  margin-left: 5%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.payment-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.payment-right {
+  flex: 1;
+  min-width: 320px;
+  background-color: #fbf9fe;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.payment-option {
+  background-color: #fbf9fe;
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.radio-label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.info-icon {
+  color: #c03e70;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+label{
+    margin-top: 3px;
+}
+.card-form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #f5dada;
+  background-color: #fff;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.expiry-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.expiry-inputs input {
+  width: 150px;
+}
+
+
+
+
+
+
+.payment-right h2 {
+  border-bottom: 2px solid #111;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.order-card img {
+  width: 60px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-name span {
+  font-weight: normal;
+  color: #888;
+  margin-left: 5px;
+}
+
+.item-price {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.item-sku {
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.order-summary {
+  background-color: #f7f5fc;
+  padding: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-row small {
+  color: #888;
+  font-size: 12px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+
+.nav-buttons2 {
+  display: flex;
+  gap: 20px;
+  padding-left: 10%;
+  padding-bottom: 1%;
+   background: linear-gradient(  #f9f9f9  , #eaeaea );
+}
+
+.btn2 {
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.back-btn2 {
+  background-color: #686769; /* light purple-ish */
+  color: #fffbfb;
+  border: 1px solid #eee;
+}
+
+.next-btn2 {
+  background-color: #222; /* dark gray/black */
+  color: #fff;
+}
+
+.back-btn2:hover,
+.next-btn2:hover {
+  opacity: 0.85;
+}
+
+.link-button2 {
+  text-decoration: none;
+}
+.link-button2 button {
+  list-style: none;
+}
+
+
+
+
+
+/* Tablet and below (≤ 996px) */
+@media screen and (max-width: 996px) {
+  .chppage-one {
+    height: 50vh;
+    background-position: center;
+  }
+
+  .chppage-one img {
+    width: 400px;
+    height: auto;
+    right: 3%;
+    top: 5%;
+  }
+
+  .chppage-one .title {
+    font-size: 3rem;
+    left: 30%;
+    top: 35%;
+    text-align: center;
+  }
+
+  .chppage-one .breadcrumb {
+    font-size: 1rem;
+    left: 35%;
+    top: 55%;
+  }
+
+  .checkout-step {
+    width: 45%;
+  }
+
+  .payment-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .payment-left, .payment-right {
+    width: 100%;
+  }
+
+  .nav-buttons2 {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .btn2 {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .expiry-inputs input {
+    width: 100%;
+  }
+
+  .card-details {
+    flex-direction: column;
+  }
+}
+
+/* Mobile (≤ 556px) */
+@media screen and (max-width: 556px) {
+  .chppage-one {
+    height: 40vh;
+    background-position: center;
+  }
+
+  .chppage-one img {
+    width: 250px;
+    height: auto;
+    right: 0;
+    top: 8%;
+  }
+
+  .chppage-one .title {
+    font-size: 2rem;
+    left: 10%;
+    top: 30%;
+    text-align: left;
+  }
+
+  .chppage-one .breadcrumb {
+    font-size: 0.85rem;
+    left: 10%;
+    top: 50%;
+  }
+
+  .checkout-step {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .payment-container {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .payment-left, .payment-right {
+    width: 100%;
+  }
+
+  .card-details {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .expiry-inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .expiry-inputs input {
+    width: 100%;
+  }
+
+  .order-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-card img {
+    margin-bottom: 10px;
+  }
+
+  .nav-buttons2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .btn2 {
+    width: 100%;
+    justify-content: center;
+  }
+}

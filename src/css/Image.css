@@ -1,0 +1,123 @@
+.image {
+  width: 100%;
+  height: 35vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-flex {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+}
+
+.image-wraper {
+  position: relative; /* Crucial for overlay positioning */
+  flex: 1; /* Makes all images equal width in the row */
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.one:hover {
+  cursor: pointer;
+}
+
+.image-wraper:hover .one {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.image-wraper:hover .overlay {
+  opacity: 1;
+}
+
+.insta-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+
+/* For tablets and small laptops (≤ 996px) */
+@media screen and (max-width: 996px) {
+  .image {
+    height: 30vh;
+  }
+
+  .image-flex {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .image-wraper {
+    flex: 1 1 50%; /* Two images per row */
+    height: 30vh;
+  }
+
+  .one {
+    height: 100%;
+  }
+
+  .overlay {
+    font-size: 1.8rem;
+  }
+
+  .insta-icon {
+    font-size: 1.8rem;
+  }
+}
+
+/* For mobile devices (≤ 556px) */
+@media screen and (max-width: 556px) {
+  .image {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .image-flex {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-wraper {
+    flex: 1 1 100%; /* One image per row */
+    height: 35vh;
+  }
+
+  .one {
+    height: 100%;
+  }
+
+  .overlay {
+    font-size: 1.5rem;
+  }
+
+  .insta-icon {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,371 @@
+.cpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.cpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.cpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 45.5%;
+  margin-bottom: 10px;
+}
+
+.cpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.cpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.cpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.cpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+.total{
+  width: 100%;
+   background: linear-gradient( #f9f9f9, #eaeaea);
+   padding-top: 30px;
+}
+
+.cart-container {
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cart-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  border-bottom: 2px solid #000;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.product-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.product-info img {
+  width: 100px;
+  height: auto;
+}
+
+.product-info h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.stock {
+  color: green;
+  font-size: 0.9rem;
+}
+
+.sku {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.new-price {
+  font-size: 1rem;
+  color: #222;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-control button {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.total-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+.checkout-wrapper {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.promo-section {
+  flex: 1;
+}
+
+.promo-inputs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.promo-inputs input {
+  padding: 0.8rem;
+  border: 1px solid #f3dede;
+  width: 60%;
+  font-size: 1rem;
+}
+
+.promo-inputs button {
+  padding: 0.8rem 1.5rem;
+  background-color: #eb75f6;
+  border: 1px solid #eee;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.promo-info h3 {
+  margin-bottom: 1rem;
+}
+
+.promo-info p {
+  max-width: 90%;
+  color: #444;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  padding: 0.8rem;
+  background-color: black;
+  border: 1px solid #eee;
+  color: snow;
+  font-size: 1.2rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.total-box {
+  flex: 0.6;
+  padding: 2rem;
+  background-color: #fbfaff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+  min-width: 300px;
+}
+
+.total-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.total-line span {
+   color: #000;
+}
+
+.total-amount {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 996px) {
+
+
+.cpage-one{
+  height: 50vh;
+}
+
+.checkout-wrapper{
+  width: 100%;
+  height: max-content;
+  margin-left: 0;
+}
+}
+
+
+
+@media screen and (max-width: 556px) {
+  .cpage-one {
+    height: 40vh;
+    background-position: center;
+  }
+
+  .cpage-one img {
+    width: 280px;
+    height: auto;
+    right: 2%;
+    top: 5%;
+  }
+
+  .cpage-one .title {
+    font-size: 2rem;
+    top: 30%;
+    left: 6%;
+    text-align: left;
+  }
+
+  .cpage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 6%;
+  }
+
+  .cart-container {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .cart-header,
+  .cart-item {
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .product-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .product-info img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .price-section,
+  .quantity-control,
+  .total-price {
+    margin-top: 10px;
+  }
+
+  .checkout-wrapper {
+    flex-direction: column;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
+  .promo-inputs {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .promo-inputs input,
+  .promo-inputs button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+  }
+
+  .total-box {
+    width: 100%;
+    min-width: unset;
+    padding: 1rem;
+  }
+
+  .checkout-btn {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}

@@ -1,0 +1,613 @@
+.popage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.popage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.popage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 45.2%;
+  margin-bottom: 10px;
+}
+
+.popage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.popage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.popage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.popage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.popage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+.banner-container {
+  text-align: center;
+  padding: 40px 20px;
+    background: linear-gradient(  #eaeaea , #f9f9f9);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post-banner img {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+}
+
+
+.banner-title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.banner-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 00px;
+}
+
+
+
+.post-meta-wrapper {
+  width: 100%;
+     background: linear-gradient( #f9f9f9, #eaeaea);
+     padding-bottom: 40px;
+
+}
+
+.post-banner {
+  width: 80%;
+  background-image: url("https://wallpapers.com/images/hd/makeup-lion-queen-96ol5xyuryleon0y.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-left: 10%;
+  display: block;
+  border-radius: 4px;
+}
+
+.meta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  padding: 16px 24px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #5c5a5a;
+  margin-top: 10px;
+  border: 1px solid;
+  color: #333;
+  flex-wrap: wrap;
+}
+
+.meta-container span {
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 6px;
+  color: #666;
+}
+
+
+.llt {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(  #eaeaea , #f9f9f9);
+}
+.letter{
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.letter .l1{
+  width: 100%;
+  height: 50%;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding: 5px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid;
+}
+.letter .l2{
+  width: 100%;
+  height: 50%;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding: 5px;
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+
+
+
+
+.quote-perfume-section {
+ width: 100%;
+ height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(  #f9f9f9 , #eaeaea);
+  color: #333;
+  margin: auto;
+}
+
+.quote-box {
+  background-image: url("../images/rotate.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  margin-left: 15%;
+  height: 30vh;
+  border: 1px solid;
+  border-radius: 8px;
+  position: relative;
+}
+.quote-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: snow;
+  padding: 20px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+
+.quote-text strong {
+  color: #0a0afd;
+}
+
+.quote-author {
+  color: #e65c94;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+
+.divider {
+  margin: 50px 0 30px;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.perfume-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  width: 70%;
+  height: 50vh;
+}
+
+.perfume-item{
+  width: 49%;
+  padding: 10px;
+  height: 50%;
+}
+.perfume-item h4 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.perfume-item p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+.rew{
+  width: 100%;
+  height: 110vh;
+  background-color: black;
+  background-image: url("https://images6.alphacoders.com/111/1114622.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+
+.rew .aroma-section {
+  background: rgba(255, 255, 255, 0.4); 
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding: 60px 40px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.rew .aroma-subtitle {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2rem;
+  color: #c94e7d;
+  margin-bottom: 10px;
+}
+
+.rew .aroma-title {
+  font-size: 3rem;
+  color: snow;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.rew .aroma-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  color: snow;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.rew .aroma-list strong {
+  color: #000;
+}
+
+.rew .shop-button {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.rew .shop-button:hover {
+  background-color: #333;
+}
+
+
+
+
+.cs{
+  width: 100%;
+  padding-top: 3%;
+  height: 85vh;
+   background: linear-gradient(  #eaeaea , #f9f9f9 );
+}
+
+.comment-section {
+  background-color: #fac7fc;
+  padding: 50px 30px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.comment-section h2 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.comment-section p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.comment-form .input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  flex: 1;
+  padding: 18px;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  min-width: 250px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.comment-form button {
+  background-color: #222;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 18px 36px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.comment-form button:hover {
+  background-color: #444;
+}
+
+
+
+
+@media screen and (max-width: 996px) {
+ 
+.popage-one{
+  height: 50vh;
+}
+.post-banner{
+  background-position: right;
+}
+
+.letter{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.quote-box{
+  width: 90%;
+  margin-left: 5%;
+}
+.perfume-grid{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.rew {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .rew .aroma-section {
+    position: static;
+    background: rgba(0, 0, 0, 0.6); /* darker overlay for better contrast */
+    padding: 40px 20px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .rew .aroma-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .rew .aroma-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .rew .aroma-list {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .rew .shop-button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 1rem;
+  }
+
+  .comment-section{
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 556px) {
+  .popage-one {
+    height: 40vh;
+  }
+
+  .popage-one img {
+    width: 100%;
+    height: auto;
+    right: 0;
+    top: 10%;
+  }
+
+  .popage-one .title {
+    font-size: 2rem;
+    top: 30%;
+    left: 10%;
+    transform: translateX(0%);
+    text-align: left;
+  }
+
+  .popage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 10%;
+  }
+
+  .post-banner {
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+    background-position: center;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .banner-subtitle {
+    font-size: 1rem;
+  }
+
+  .meta-container {
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .llt {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .letter {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .letter .l1,
+  .letter .l2 {
+    font-size: 1rem;
+    height: auto;
+  }
+
+  .quote-box {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .quote-text,
+  .quote-author {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .perfume-grid {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+
+  .perfume-item {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .rew {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .rew .aroma-section {
+    position: static;
+    max-width: 90%;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+  }
+
+  .rew .aroma-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .rew .aroma-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .rew .aroma-list {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .rew .shop-button {
+    font-size: 0.9rem;
+    padding: 12px 24px;
+    margin: 0 auto;
+  }
+
+  .cs {
+    padding-top: 30px;
+    height: auto;
+  }
+
+  .comment-section {
+    width: 90%;
+    margin-left: 5%;
+    padding: 30px 15px;
+  }
+
+  .comment-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .comment-form input,
+  .comment-form textarea {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .comment-form button {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+}

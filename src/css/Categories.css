@@ -1,0 +1,247 @@
+.cpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+.cpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 65%;
+  left: 43%;
+  color: black;
+}
+
+.breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+.recs {
+  width: 100%;
+  height: 190vh;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.recs .phlp {
+  width: 32%;
+  height: 90vh;
+  margin-top: 2%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.phlp img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.ops {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  pointer-events: none; 
+}
+
+
+
+
+.overlay-text {
+  background: rgba(0, 0, 0, 0.5);
+  color: snow;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(20px);
+  pointer-events: auto; 
+}
+
+.phlp:hover .ops .overlay-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.overlay-text p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.obtn button {
+  padding: 12px 28px;
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  font-weight: 600;
+}
+
+.obtn button:hover {
+  background-color: #fd678d;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .recs .phlp {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .overlay-text p {
+    font-size: 1.5rem;
+  }
+
+  .obtn button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+} 
+
+
+
+@media screen and (max-width: 996px) {
+   
+.cpage-one{
+  height: 50vh;
+}
+
+.cpage-one .title{
+  z-index: 2;
+  margin-left: -100px;
+}
+
+.recs {
+  height: max-content;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 556px) {
+  .cpage-one {
+    height: 45vh;
+    background-position: center;
+  }
+
+  .cpage-one img {
+    width: 250px;
+    height: auto;
+    right: 2%;
+    top: 5%;
+  }
+
+  .title {
+    font-size: 2rem;
+    top: 35%;
+    left: 6%;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 6%;
+    color: snow;
+  }
+
+  .recs {
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 10px;
+  }
+
+  .recs .phlp {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 20px;
+  }
+
+  .overlay-text {
+    padding: 12px;
+    border-radius: 6px;
+  }
+
+  .overlay-text p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .obtn button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}

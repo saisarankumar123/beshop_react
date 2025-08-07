@@ -1,0 +1,528 @@
+.apage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.apage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.apage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  margin-bottom: 10px;
+}
+
+.apage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.apage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.apage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.apage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.apage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+.info-boxes {
+  display: flex;
+  justify-content: space-between;
+   background: linear-gradient(  #eaeaea );
+  gap: 20px;
+   color:  #f52f71;/* light pink background like your screenshot */
+  padding: 30px 50px;
+  flex-wrap: wrap;
+  
+
+}
+
+.info-box {
+  flex: 1 1 250px;
+  display: flex;
+  align-items: center;
+   background: linear-gradient(  #ffffff);
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+}
+
+.icon-bg {
+   color:  #f52f71;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 28px;
+  color: #222;
+}
+
+.info-text h4 {
+  font-size: 1.1rem;
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.info-text p {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+}
+
+
+
+
+.promo-container {
+  text-align: center;
+  padding: 60px 20px;
+background: linear-gradient(  #eaeaea , #f9f9f9);
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.promo-label {
+  font-family: 'Dancing Script', cursive;
+  color: #d6336c;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.promo-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.promo-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.video-wrapper {
+  position: relative;
+  width: 80%;
+  height: 550px; /* set fixed height */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* match parent height */
+  border: none;
+}
+
+
+
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient( #f9f9f9);
+  gap: 80px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stat-box {
+  position: relative;
+}
+
+.stat-number-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d94b78;
+  position: relative;
+  z-index: 1;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 8px;
+}
+
+.pop {
+  width: 100%;
+  background-image: url("https://images.alphacoders.com/111/thumb-1920-1115946.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-story {
+  background: rgba(0, 0, 0, 0.4); /* Optional: adds contrast */
+  padding: 60px;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-left: 20%;
+  text-align: left;
+  color: snow;
+}
+
+
+.content-wrapper {
+  max-width: 700px;
+}
+
+.section-label {
+  font-family: 'Cursive', 'Brush Script MT', cursive;
+  color: #d94b78;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  line-height: 1.3;
+  color: snow;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  color: #fffbfb;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.description {
+  font-size: 1rem;
+  color: #fff8f8;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.shop-btn {
+  background-color: #111;
+  color: #fff;
+  padding: 14px 28px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.shop-btn:hover {
+  background-color: #d94b78;
+  color: #fff;
+}
+
+
+
+
+.page-five1 {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+    overflow: hidden;
+}
+
+.page-five1 .boxl {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 7%;
+}
+
+.boxl .in1,
+.boxl .in2,
+.boxl .in3 {
+    width: 32%;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.boxl .in1:hover,
+.boxl .in2:hover,
+.boxl .in3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.logi {
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logi svg {
+    font-size: 6rem;
+    margin-top: 10%;
+    color: #4a4a4a;
+    transition: transform 0.4s ease;
+}
+
+.logi svg:hover {
+    transform: scale(1.1) rotate(3deg);
+    color:  #fd678d;
+}
+
+.in1 h3, .in2 h3, .in3 h3 {
+    font-size: 2rem;
+    margin-left: 32%;
+    padding: 10px;
+    margin-bottom: 25px;
+    color:black;
+    transition: color 0.3s;
+}
+
+.in1:hover h3,
+.in2:hover h3,
+.in3:hover h3 {
+    color:  #fd678d;
+}
+
+.in1 p, .in2 p, .in3 p {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.in1:hover p,
+.in2:hover p,
+.in3:hover p {
+    color: #444;
+}
+
+
+
+@media screen and (max-width: 996px) {
+
+.apage-one{
+   height: 50vh;
+}
+
+.boxl {
+    flex-direction: row;
+    align-items: center;
+    /* gap: 30px; */
+  }
+
+  .in1, .in2, .in3 {
+    width: 100%;
+    max-width :800px;
+  }
+
+  .logi svg {
+    font-size: 5rem;
+  }
+
+  .in1 h3, .in2 h3, .in3 h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .in1 p, .in2 p, .in3 p {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 556px) {
+  .apage-one {
+    height: 40vh;
+    background-position: center;
+  }
+
+  .apage-one .title {
+    font-size: 2rem;
+    top: 30%;
+    left: 10%;
+    transform: none;
+    text-align: left;
+  }
+
+  .apage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 10%;
+  }
+
+  .apage-one img {
+    width: 300px;
+    height: 200px;
+    right: 2%;
+    top: 0%;
+  }
+
+  .info-boxes {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .promo-heading {
+    font-size: 2rem;
+  }
+
+  .promo-subtext {
+    font-size: 1rem;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .pop {
+    padding: 60px 15px;
+  }
+
+  .success-story {
+    margin-left: 0;
+    padding: 30px 20px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .page-five1 {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .boxl {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    gap: 20px;
+    position: static;
+  }
+
+  .in1, .in2, .in3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .logi {
+    height: 100px;
+  }
+
+  .logi svg {
+    font-size: 4rem;
+  }
+
+  .in1 h3, .in2 h3, .in3 h3 {
+    font-size: 1.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .in1 p, .in2 p, .in3 p {
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+}

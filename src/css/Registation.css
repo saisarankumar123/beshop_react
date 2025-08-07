@@ -1,0 +1,260 @@
+.rpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.rpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.rpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 41%;
+  margin-bottom: 10px;
+}
+
+.rpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.rpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.rpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.rpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.rpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+   background: linear-gradient( #f9f9f9, #eaeaea);
+  min-height: 100vh;
+}
+
+.register-container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.social-icons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.facebook { background-color: #3b5998; }
+.twitter { background-color: #55acee; }
+.instagram { background-color: #e4405f; }
+.google { background-color: #dd4b39; }
+
+/* Form */
+.register-form {
+  text-align: left;
+}
+
+.double-input {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.double-input input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.register-form h3 {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Remember me */
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember input {
+  margin-right: 8px;
+}
+
+/* Button */
+.register-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #111;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Links */
+.register-links {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register-links a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.register-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .double-input {
+    flex-direction: column;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .register-container {
+    padding: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 996px) {
+  .rpage-one{
+    height: 50vh;
+  }
+
+}
+
+
+@media screen and (max-width: 556px) {
+  .rpage-one {
+    height: 45vh;
+  }
+
+  .rpage-one img {
+    width: 100%;
+    height: auto;
+    right: 0;
+    top: 15%;
+  }
+
+  .rpage-one .title {
+    font-size: 2rem;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+  }
+
+  .rpage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 10%;
+  }
+
+  .register-container {
+    padding: 20px 15px;
+  }
+
+  .register-container h2 {
+    font-size: 22px;
+  }
+
+  .register-form h3 {
+    font-size: 16px;
+  }
+
+  .register-btn {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .register-links {
+    font-size: 13px;
+  }
+}

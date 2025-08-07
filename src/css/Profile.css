@@ -1,0 +1,121 @@
+.ppage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.ppage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.ppage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 44.3%;
+  margin-bottom: 10px;
+}
+
+.ppage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.ppage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ppage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.ppage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.ppage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+@media screen and (max-width: 996px) {
+  .ppage-one {
+    height: 50vh;
+  }
+
+  .ppage-one img {
+    width: 400px;
+    height: auto;
+    right: 2%;
+    top: 10%;
+  }
+
+  .ppage-one .title {
+    font-size: 2.5rem;
+    top: 35%;
+    left: 40%;
+  }
+
+  .ppage-one .breadcrumb {
+    font-size: 1rem;
+    top: 60%;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .ppage-one {
+    height: 45vh;
+  }
+
+  .ppage-one img {
+    width: 100%;
+    height: auto;
+    right: 0;
+    top: 15%;
+  }
+
+  .ppage-one .title {
+    font-size: 1.8rem;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+  }
+
+  .ppage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 10%;
+  }
+}

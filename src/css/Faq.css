@@ -1,0 +1,278 @@
+.fpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.fpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.fpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 45.5%;
+  margin-bottom: 10px;
+}
+
+.fpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.fpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.fpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.fpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.fpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+.ques{
+    width: 100%;
+    height: 120vh;
+}
+
+
+.faq-container {
+  margin: 2rem auto;
+  max-width: 900px;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.faq-search {
+  width: 75%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.faq-search-button {
+  padding: 1rem;
+  font-weight: bold;
+  background: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 2px 2px 0;
+}
+
+.faq-search-button span {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.faq-list {
+  margin-top: 2rem;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.faq-question.active {
+  color: #e05c84;
+}
+
+.faq-number {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e05c84;
+  font-family: cursive;
+  width: 24px;
+  text-align: center;
+}
+
+.faq-question h4 {
+  flex-grow: 1;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.faq-toggle {
+  width: 30px;
+  height: 30px;
+  background: #faeded;
+  color: #444;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  user-select: none;
+}
+
+.faq-answer {
+  margin-top: 1rem;
+  padding-left: 2.5rem;
+  line-height: 1.6;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .fpage-one{
+    height: 50vh;
+  }
+  .faq-search {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  .faq-search-button {
+    width: 20%;
+    border-radius: 4px;
+  }
+
+  .faq-item{
+    height: max-content;
+  }
+  .faq-question h4 {
+    font-size: 1.5rem;
+  }
+
+  .faq-answer p{
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 556px) {
+  .fpage-one {
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .fpage-one img {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .fpage-one .title {
+    font-size: 2rem;
+    position: static;
+    margin: 10px 0;
+  }
+
+  .fpage-one .breadcrumb {
+    font-size: 0.9rem;
+    position: static;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .empty {
+    height: 8vh;
+  }
+
+  .ques {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .faq-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .faq-search {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+
+  .faq-search-button {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .faq-question {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .faq-question h4 {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+
+  .faq-answer {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  .faq-toggle {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}

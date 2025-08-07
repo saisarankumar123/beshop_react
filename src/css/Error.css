@@ -1,0 +1,264 @@
+.epage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.epage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.epage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 46%;
+  margin-bottom: 10px;
+}
+
+.epage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.epage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.epage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.epage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.epage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+  background: linear-gradient(  #eaeaea);
+}
+
+
+
+
+
+.notfound-container {
+  background: linear-gradient( #f9f9f9, #eaeaea);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound-content {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+}
+
+.notfound-text {
+  flex: 1;
+}
+
+.error-code {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.error-message {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.error-description {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 45px;
+  margin-left: 5%;
+}
+
+.home-link {
+  color: #e91e63;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.search-box {
+  display: flex;
+  width: 400px;
+  margin-left: 5%;
+  max-width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  font-size: 14px;
+}
+
+.search-box button {
+  background-color: #111;
+  color: white;
+  padding: 0 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.notfound-image {
+  flex: 1;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.notfound-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+
+
+
+@media screen and (max-width: 556px) {
+  .epage-one {
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .epage-one img {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .epage-one .title {
+    font-size: 2rem;
+    position: static;
+    margin: 10px 0;
+  }
+
+  .epage-one .breadcrumb {
+    font-size: 0.9rem;
+    position: static;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .empty {
+    height: 8vh;
+  }
+
+  .notfound-container {
+    padding: 30px 10px;
+  }
+
+  .notfound-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .notfound-text {
+    flex: none;
+    width: 100%;
+  }
+
+  .error-code {
+    font-size: 4rem;
+    margin-left: 0;
+  }
+
+  .error-message {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .error-description {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+
+  .search-box {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .search-box input {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .search-box button {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .notfound-image {
+    flex: none;
+    padding-right: 0;
+  }
+
+  .notfound-image img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,455 @@
+.spage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.spage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.spage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  margin-bottom: 10px;
+}
+
+.spage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.spage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.spage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.spage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.spage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  cursor: pointer;
+}
+
+.price-slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.price-range {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.sort {
+  margin-left: auto;
+  padding: 6px;
+}
+
+.products {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 250px;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  position: relative;
+  text-align: center;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-wrapper:hover .hover-icons {
+  opacity: 1;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.tag.new {
+  background: #e87ca2;
+  right: 10px;
+}
+
+.tag.sale {
+  background: #9cd18b;
+  right: 60px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+
+.current {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+.sidebar {
+  width: 25%;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.headingw {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 8px;
+}
+
+.side-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.side-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.side-text {
+  font-size: 14px;
+}
+
+ .heart {
+  font-size: 20px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .heart:hover {
+  transform: scale(1.1);
+  background-color: #f2f2f2;
+}
+
+.two-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.search-heart{
+    font-size: 20px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .search-heart:hover {
+  transform: scale(1.1);
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+@media (max-width: 996px) {
+
+  .spage-one {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .spage-one img {
+    width: 90%;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .spage-one .title {
+    font-size: 2.5rem;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .spage-one .breadcrumb {
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sort {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .side-item {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .side-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .heart,
+  .search-heart {
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .two-icons {
+    gap: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 556px) {
+  .spage-one {
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  .spage-one img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+
+  .spage-one .title {
+    font-size: 2rem;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .spage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .sidebar {
+    padding: 8px;
+  }
+
+  .search-input {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sort {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .product-card {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .side-item {
+    flex-direction: row;
+  }
+
+  .side-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .side-text {
+    font-size: 13px;
+  }
+
+  .heart,
+  .search-heart {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .headingw {
+    font-size: 18px;
+  }
+}
+

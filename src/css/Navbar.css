@@ -1,0 +1,65 @@
+
+
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-navbar.scrolled {
+  background-color: rgba(91, 90, 90, 0.7) !important;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 10px rgba(160, 159, 159, 0.779);
+}
+
+.custom-navbar .navbar-brand img {
+  height: auto;
+  width: 100px;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  color: snow !important;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #e91e63 !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(108, 108, 108, 0.9) !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: snow !important;
+  font-size: 0.85rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #e91e63 !important;
+  color: white !important;
+}
+
+.nav-icons a {
+  color: snow;
+  font-size: 1.2rem;
+}
+
+.nav-icons a:hover {
+  color: #e91e63;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 15px 20px;
+  }
+}

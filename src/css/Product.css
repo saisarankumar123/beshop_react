@@ -1,0 +1,252 @@
+.prpage-one {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/hd/dark-girl-girl-looking-intently-ujpkiqp3pwpz43fx.jpg") ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+/* .nav-linkfull a , .nav-brand a{
+  color: black;
+} */
+
+.prpage-one img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  right: 5%;
+  top: 0%;
+}
+
+
+.prpage-one .title {
+  font-size: 4rem;
+  font-weight: 500;
+  color:snow;
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  margin-bottom: 10px;
+}
+
+.prpage-one .breadcrumb {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 63%;
+  left: 46%;
+  color: snow;
+}
+
+.prpage-one .breadcrumb-home {
+  color:  #f52f71;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.prpage-one .breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.prpage-one .separator {
+  margin: 0 8px;
+  color:snow;
+}
+
+.prpage-one .breadcrumb-current {
+  color:snow;
+  font-weight: 500;
+}
+
+
+.empty{
+  width: 100%;
+  height: 12vh;
+}
+
+
+
+.header-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.header-subtitle {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #d95b8b;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.header-description {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+
+
+.product-grid {
+  display: flex;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 300vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.product-card {
+  position: relative;
+  width: 24%;
+  height: 24%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.product-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  padding: 10px;
+}
+
+.product-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.product-label.sale {
+  background-color: #70c47f;
+}
+
+.product-label.new {
+  background-color: #d95b8b;
+}
+
+
+
+@media screen and (max-width: 996px) {
+
+.prpage-one{
+  height: 50vh;
+}
+
+.product-grid{
+  width: 100%;
+  height: max-content;
+  margin-left: 0;
+  gap: 10px;
+}
+.product-card{
+  width: 45%;
+}
+}
+
+
+
+
+@media screen and (max-width: 556px) {
+  .prpage-one {
+    height: 40vh;
+  }
+
+  .prpage-one img {
+    width: 100%;
+    height: auto;
+    right: 0;
+    top: 10%;
+  }
+
+  .prpage-one .title {
+    font-size: 2rem;
+    top: 30%;
+    left: 8%;
+    transform: translateX(0%);
+    text-align: left;
+  }
+
+  .prpage-one .breadcrumb {
+    font-size: 0.9rem;
+    top: 55%;
+    left: 8%;
+  }
+
+  .header-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-description {
+    font-size: 0.95rem;
+    width: 90%;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    gap: 15px;
+    height: auto;
+  }
+
+  .product-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-image {
+    height: 200px;
+    padding: 15px;
+  }
+
+  .product-name {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .product-label {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+}
